@@ -1,0 +1,10 @@
+{
+  "$schema": "https://go.kicad.org/api/schemas/v1",
+  "identifier": "com.circuitninja.kicad",
+  "name": "CircuitNinja",
+  "description": "CircuitNinja manufacturing checks, constraints, exports, and ordering.",
+  "runtime": {
+    "type": "python"
+  },
+  "actions": []
+}

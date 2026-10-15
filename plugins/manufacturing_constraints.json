@@ -1,0 +1,20 @@
+{
+    "schema_version": 1,
+    "board": {
+        "min_mm": [
+            10,
+            10
+        ],
+        "max_mm": [
+            130,
+            155
+        ]
+    },
+    "min_hole_to_edge_mm": 0.2,
+    "min_hole_to_hole_mm": 0.2,
+    "min_annular_ring_mm": 0.12,
+    "min_trace_width_mm": 0.2,
+    "min_clearance_mm": 0.2,
+    "min_pth_mm": 0.3,
+    "min_npth_mm": 0.5
+}

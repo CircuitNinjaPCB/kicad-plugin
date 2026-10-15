@@ -1,0 +1,22 @@
+{
+  "name": "CircuitNinja for KiCad",
+  "schema_version": 2,
+  "maintainer": {
+    "name": "CircuitNinja",
+    "contact": {
+      "web": "https://circuitninja.com"
+    }
+  },
+  "packages": {
+    "url": "https://raw.githubusercontent.com/CircuitNinjaPCB/kicad-plugin/main/releases/packages.json",
+    "sha256": "908402c7a5f3ac280ddf095f9fd4ebd75947b74af9ea0e6d34bb6042984cc60c",
+    "update_timestamp": 1792104909,
+    "update_time_utc": "2026-10-15 22:55:09"
+  },
+  "resources": {
+    "url": "https://raw.githubusercontent.com/CircuitNinjaPCB/kicad-plugin/main/releases/resources.zip",
+    "sha256": "0555a58ae418e28c761b3b0248d2ac5737a5a80daf8fc238384d58c691b81eda",
+    "update_timestamp": 1792099583,
+    "update_time_utc": "2026-10-15 21:26:23"
+  }
+}

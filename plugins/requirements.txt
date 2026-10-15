@@ -1,0 +1,5 @@
+httpx2>=2.13.1
+keyring>=25.7.0
+kicad-python>=0.8.0
+pydantic>=2.14.1
+PySide6-Essentials>=6.12.0
