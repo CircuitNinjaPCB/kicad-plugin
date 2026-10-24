@@ -48,9 +48,21 @@ def launch_window(environment: Path, entrypoint: Path, context: dict[str, Any]) 
         deadline = time.monotonic() + 15
         while not ready.exists():
             if process.poll() is not None:
-                detail = Path(log.name).read_text(errors="replace")[-3000:]
+                detail = Path(log.name).read_text(errors="replace")
+                if any(
+                    hint in detail.lower()
+                    for hint in (
+                        "xcb-cursor0",
+                        "libxcb-cursor.so",
+                        'qt platform plugin "xcb"',
+                        "qt platform plugin 'xcb'",
+                    )
+                ):
+                    raise RuntimeError(
+                        f"The window could not start. A Qt system dependency may be missing.\n\nOn Ubuntu/Debian, try:\n> sudo apt install libxcb-cursor0\nThen restart KiCad.\n\nLog: {log.name}"
+                    )
                 raise RuntimeError(
-                    f"The window could not start.\n{detail}\nLog: {log.name}"
+                    f"The window could not start.\n{detail[-3000:]}\nLog: {log.name}"
                 )
             if time.monotonic() >= deadline:
                 raise RuntimeError(
