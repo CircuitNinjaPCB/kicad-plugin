@@ -47,7 +47,7 @@ from window_launcher import launch_window
 from window_position import show_centered
 
 ACCOUNT_AT_TOP = False
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 ICONS = Path(__file__).parent / "icons"
 STYLE = "\nQWidget { background: white; color: #252b38; font-size: 12px; }\nQLabel#title { font-size: 20px; font-weight: 700; }\nQLabel#muted { color: #677083; }\nQPushButton { border: 1px solid #dfe3eb; border-radius: 5px; padding: 6px 10px; }\nQPushButton:hover { background: #f3f1f8; border-color: #b9a8d0; }\nQPushButton#primary { background: #472e76; color: white; border-color: #472e76; }\nQPushButton#primary:hover { background: #3a2561; }\nQPushButton#quiet { border: none; color: #677083; padding: 3px; }\nQPushButton#forget { background: #fbe9e9; color: #9d3038; border-color: #ebc3c7; }\nQPushButton#forget:hover { background: #f5d7da; border-color: #ce929a; }\nQPushButton#forget:pressed { background: #efc7cc; }\nQPushButton:disabled, QPushButton#primary:disabled {\n    color: #9298a4; background: #f0f1f4; border-color: #dfe3eb; }\nQToolButton, QPushButton#account { background: #f3f1f8; color: #472e76; border: 1px solid transparent;\n    border-radius: 7px; font-weight: 600; }\nQToolButton:hover, QPushButton#account:hover { background: #e9e3f2; border-color: #b9a8d0; }\nQToolButton:pressed, QPushButton#account:pressed { background: #ddd3ec; }\nQToolButton:disabled, QPushButton#account:disabled { background: #f0f1f4; color: #9298a4; }\nQToolButton#workflow { padding: 10px 4px; }\nQPushButton#account { text-align: left; padding: 6px 42px 6px 12px; }\nQComboBox, QLineEdit { border: 1px solid #dfe3eb; border-radius: 4px; padding: 5px; }\nQLineEdit:disabled { background: #f7f8fa; color: #677083; }\n"
 

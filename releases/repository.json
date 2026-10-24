@@ -9,9 +9,9 @@
   },
   "packages": {
     "url": "https://raw.githubusercontent.com/CircuitNinjaPCB/kicad-plugin/main/releases/packages.json",
-    "sha256": "908402c7a5f3ac280ddf095f9fd4ebd75947b74af9ea0e6d34bb6042984cc60c",
-    "update_timestamp": 1792104909,
-    "update_time_utc": "2026-10-15 22:55:09"
+    "sha256": "efd3808c93e6e3db5c64a42726b0e6142e4e5eaa16e2d66cefd0db1b3725d701",
+    "update_timestamp": 1792846580,
+    "update_time_utc": "2026-10-24 12:56:20"
   },
   "resources": {
     "url": "https://raw.githubusercontent.com/CircuitNinjaPCB/kicad-plugin/main/releases/resources.zip",
